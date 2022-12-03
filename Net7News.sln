@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutPutCaching", "OutPutCaching\OutPutCaching.csproj", "{FEAADF98-C88A-409C-BCCC-5DA6BE5A3919}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimit", "RateLimit\RateLimit.csproj", "{9A6F0DE5-0E19-4006-BBBB-B2593F51EA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRClientResults", "SignalRClientResults\SignalRClientResults.csproj", "{50A2A472-A78B-488A-A147-4CE5038A0F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRConsoleClient", "SignalRConsoleClient\SignalRConsoleClient.csproj", "{0DD2E1FD-D32D-4F8B-B8F6-2ADBBFE7B81D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalRJavaScriptClient", "SignalRJavaScriptClient", "{51C935AF-119B-47AF-A79E-EDA81BA1F8C7}"
+	ProjectSection(SolutionItems) = preProject
+		SignalRJavaScriptClient\Index.html = SignalRJavaScriptClient\Index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAADF98-C88A-409C-BCCC-5DA6BE5A3919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAADF98-C88A-409C-BCCC-5DA6BE5A3919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAADF98-C88A-409C-BCCC-5DA6BE5A3919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAADF98-C88A-409C-BCCC-5DA6BE5A3919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6F0DE5-0E19-4006-BBBB-B2593F51EA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6F0DE5-0E19-4006-BBBB-B2593F51EA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6F0DE5-0E19-4006-BBBB-B2593F51EA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6F0DE5-0E19-4006-BBBB-B2593F51EA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A2A472-A78B-488A-A147-4CE5038A0F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2A472-A78B-488A-A147-4CE5038A0F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A2A472-A78B-488A-A147-4CE5038A0F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A2A472-A78B-488A-A147-4CE5038A0F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD2E1FD-D32D-4F8B-B8F6-2ADBBFE7B81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD2E1FD-D32D-4F8B-B8F6-2ADBBFE7B81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD2E1FD-D32D-4F8B-B8F6-2ADBBFE7B81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD2E1FD-D32D-4F8B-B8F6-2ADBBFE7B81D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A560F1-6015-4151-B3D6-A76C56C2AD09}
+	EndGlobalSection
+EndGlobal
